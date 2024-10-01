@@ -86,13 +86,13 @@
 2. Adicione as seguintes configurações para configurar os aliases:
    ```bash
    # GitHub (padrão)
-   Host gh
+       Host gh
        HostName github.com
        User git
        IdentityFile ~/.ssh/id_rsa
 
    # Bitbucket (secundário)
-   Host bb
+       Host bb
        HostName bitbucket.org
        User git
        IdentityFile ~/.ssh/id_rsa_bb
